@@ -1,0 +1,289 @@
+.main {
+    margin-left: 370px;
+    width: 1000px;
+    height: 475px;
+    border: 10px solid white;
+}
+
+.news {
+    position: relative;
+    float: right;
+    border: 1px solid #e8ebed;
+    width: 248px;
+    height: 455px;
+}
+
+.news .box1 {
+    float: left;
+    width: 248px;
+    height: 33px;
+}
+
+.news .box1 h3 {
+    border-bottom: 1px solid #e8ebed;
+    font-size: 14px;
+    padding-left: 12px;
+    line-height: 33px;
+}
+
+
+.news .box1 h3 a {
+    float: right;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.news .box1 ul {
+    height: 130px;
+}
+
+.news .box1 ul li {
+    margin-top: 1px;
+    padding-left: 10px;
+    height: 20%;
+}
+
+.news .box1 ul li a {
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.news .box2 {
+    position: absolute;
+    top: 160px;
+    height: 208px;
+    width: 248px;
+}
+
+.news .box2 .box3 {
+    float: left;
+    border: 1px solid #e8ebed;
+    height: 33%;
+    width: 25%;
+    background: url(../images/icons.png);
+    padding-top: 45px;
+    padding-left: 17px;
+}
+
+.news .jingling1 {
+    position: absolute;
+    top: 368px;
+    width: 248px;
+    height: 75px;
+    background: url(../images/jingling1.png) 0 -374px;
+}
+
+.recommend {
+    height: 163px;
+}
+
+.recommend .recom_hd {
+    float: left;
+    margin-right: 3px;
+    width: 205px;
+    height: 163px;
+}
+
+.recommend .recom_bd {
+    float: left;
+}
+
+.recommend .recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recommend .recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.random_like {
+    padding-top: 24px;
+    height: 290px;
+}
+
+.random_like h3 {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.random_like a {
+    float: right;
+}
+
+.random_like ul {
+    border: 1px solid #e8ebed;
+    height: 233px;
+}
+
+.random_like ul li {
+    float: left;
+    width: 199px;
+}
+
+.random_like ul li .top {
+    height: 156px;
+}
+
+.random_like ul li .bottom {
+    padding-left: 30px;
+    padding-right: 45px;
+    font-size: 12px;
+}
+
+.random_like ul li .bottom h3 {
+    color: #e76a6c;
+}
+
+.random_like ul li .pro {
+    position: relative;
+}
+
+.random_like ul li .pro>img {
+    position: absolute;
+    top: 8px;
+    left: 81px;
+}
+
+.floot .w {
+    height: 507px;
+}
+
+.floot .w .box_hd {
+    padding-top: 25px;
+    height: 57px;
+    border-bottom: 1px solid #c81623;
+}
+
+.floot .w .box_bd {
+    height: 444px;
+}
+
+
+.floot .w .box_hd h3 {
+    display: inline-block;
+    font-size: 18px;
+    color: #c81623;
+    line-height: center;
+}
+
+.floot .w .box_hd ul {
+    float: right;
+}
+
+.floot .w .box_hd ul li {
+    line-height: 30px;
+    float: left;
+}
+
+.floot .w .box_hd ul li:first-child {
+    color: #c81623;
+}
+
+.floot .w .box_hd ul :nth-child(even) {
+    width: 0;
+    border: 1px solid #ddd;
+    height: 18px;
+    margin: 0 10px;
+    margin-top: 9px;
+}
+
+.floot .top {
+    height: 360px;
+}
+
+.floot .bottom {
+    margin-top: 15px;
+    height: 90px;
+}
+
+.floot .top .block1 {
+    float: left;
+    width: 208px;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+
+.floot .top .block1 ul li {
+    float: left;
+    margin: 0 10px;
+    border-bottom: 1px solid #ddd;
+    width: 80px;
+    height: 31px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.floot .block2 {
+    position: relative;
+    float: left;
+    width: 329px;
+    height: 360px;
+    background: url(../upload/floor-1-b01.png);
+}
+
+.floot .block2 ul {
+    position: absolute;
+    top: 337px;
+    left: 133px;
+}
+
+.floot .block2 ul li {
+    float: left;
+    margin: 0 3px;
+    background-color: rgba(0, 0, 0, .3);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.floot .block2 ul :first-child {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.floot .block3 {
+    float: left;
+    width: 220px;
+    height: 358px;
+}
+
+.floot .block4 {
+    float: left;
+    width: 213px;
+    height: 360px;
+}
+
+.cemian {
+    position: fixed;
+    top: 50%;
+    left: 80px;
+    width: 63px;
+    height: 150px;
+    background-color: #b1191a;
+}
+
+.cemian .ce {
+    padding-top: 3px;
+    width: 63px;
+    height: 20%;
+    text-align: center;
+}
+
+.cemian .ce a {
+    color: #fff;
+}
+
+.cemian .ce:hover {
+    background: #fff;
+}
+
+.cemian .ce:hover a {
+    color: #b1191a;
+}
